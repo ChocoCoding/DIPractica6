@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="panelPrincipal" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dipractica6.ControladorEjericicio1">
+   <children>
+      <ListView fx:id="listaCiudades" prefHeight="462.0" prefWidth="129.0" />
+      <ImageView fx:id="imagenCiudad" fitHeight="402.0" fitWidth="750.0" layoutX="129.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="btnLimpiarEstilo" layoutX="303.0" layoutY="438.0" mnemonicParsing="false" onAction="#onLimpiarEstilo" text="LimpiarEstilo" />
+      <Button fx:id="btnAsignarEstilo" layoutX="581.0" layoutY="438.0" mnemonicParsing="false" onAction="#onAsignarEstilo" text="AsignarEstilo" />
+   </children>
+</AnchorPane>
